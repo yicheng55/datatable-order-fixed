@@ -39,7 +39,7 @@ if($_POST['length'] != -1)
 	$start = $_POST['start'];
 	$length = $_POST['length'];
 	$sql .= " LIMIT  ".$start.", ".$length;
-}	
+}
 
 $query = mysqli_query($con,$sql);
 $count_rows = mysqli_num_rows($query);
@@ -52,7 +52,7 @@ while($row = mysqli_fetch_assoc($query))
 	$sub_array[] = $row['email'];
 	$sub_array[] = $row['mobile'];
 	$sub_array[] = $row['city'];
-	$sub_array[] = '<a href="javascript:void();" data-id="'.$row['id'].'"  class="btn btn-info btn-sm editbtn" >Edit</a>  <a href="javascript:void();" data-id="'.$row['id'].'"  class="btn btn-danger btn-sm deleteBtn" >Delete</a>';
+	$sub_array[] = '<a href="javascript:void(0);" data-id="'.$row['id'].'"  class="btn btn-info btn-sm editbtn" >Edit</a>  <a href="javascript:void(0);" data-id="'.$row['id'].'"  class="btn btn-danger btn-sm deleteBtn" >Delete</a>';
 	$data[] = $sub_array;
 }
 
