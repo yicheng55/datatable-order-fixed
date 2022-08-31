@@ -6,9 +6,25 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src="js/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
+
+  <!-- <script type="text/javascript" src="js/dt-1.10.25datatables.min.js"></script> -->
+  <!-- <script type="text/javascript" src="js/jquery.dataTables-1.11.2.min.js"></script> -->
+
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css">
+  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.2.9/css/responsive.dataTables.min.css">
+  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/responsive/2.2.9/js/dataTables.responsive.min.js"></script>
+
+  <!-- <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.css">
+  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.js"></script> -->
+
   <!-- Bootstrap CSS -->
   <link href="css/bootstrap5.0.1.min.css" rel="stylesheet" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="css/datatables-1.10.25.min.css" />
+  <script src="js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+  <!-- <link rel="stylesheet" type="text/css" href="css/datatables-1.10.25.min.css" /> -->
   <title>Server Side CRUD Ajax Operations</title>
   <style type="text/css">
     .btnAdd {
@@ -49,11 +65,31 @@
       </div>
     </div>
   </div>
+
   <!-- Optional JavaScript; choose one of the two! -->
   <!-- Option 1: Bootstrap Bundle with Popper -->
-  <script src="js/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
-  <script src="js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="js/dt-1.10.25datatables.min.js"></script>
+  <!-- <script src="js/jquery-3.6.0.min.js" crossorigin="anonymous"></script> -->
+  <!-- <script src="js/bootstrap.bundle.min.js" crossorigin="anonymous"></script> -->
+  <!-- <script type="text/javascript" src="js/dt-1.10.25datatables.min.js"></script> -->
+  <!-- <script type="text/javascript" src="js/jquery.dataTables-1.11.2.min.js"></script> -->
+
+  <!-- <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.css">
+
+  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.js"></script> -->
+
+  <!-- //- //  RWD Javascript連結 -->
+  <!-- <script type="text/javascript" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script> -->
+  <!-- <script type="text/javascript" src="https://cdn.datatables.net/responsive/2.2.9/js/dataTables.responsive.min.js"></script> -->
+  <!-- <script type="text/javascript" src="js/jquery.dataTables-1.11.2.js"></script> -->
+  <!-- <script type="text/javascript" src="js/dataTables.responsive-2.2.9.min.js"></script> -->
+
+
+  <!-- //- //  RWD CSS連結 -->
+  <!-- <link href="css/jquery.dataTables-1.11.2.min.css" rel="stylesheet" crossorigin="anonymous">
+  <link href="css/responsive.dataTables-2.2.9.min.css" rel="stylesheet" crossorigin="anonymous"> -->
+  <!-- <link href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css" rel="stylesheet" crossorigin="anonymous"> -->
+  <!-- <link href="css/responsive.dataTables-2.2.9.min.css" rel="stylesheet" crossorigin="anonymous"> -->
+
   <!-- Option 2: Separate Popper and Bootstrap JS -->
   <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
